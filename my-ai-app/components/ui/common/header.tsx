@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <nav className="container flex items-center ">
+    <nav className="container flex items-center  ">
       <div>
         <Link href="/">Chatbox AI</Link>
       </div>
