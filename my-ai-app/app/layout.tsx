@@ -11,7 +11,7 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
-  title: "AI-Powered PDF Summarization",
+  title: "IntellectAI",
   description: "Công Cụ tóm tắt PDF sử dụng AI",
 };
 

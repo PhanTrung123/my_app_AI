@@ -10,14 +10,16 @@ export default function Header() {
       <div className="flex items-center gap-2">
         <Bot className="w-6 h-6 lg:w-8 lg:h-8 text-gray-900 hover:rotate-12 transform transition duration-300 ease-in-out cursor-pointer" />
         <NavLink href="/" className="flex items-center gap-1 lg:gap-2 shrink-0">
-          <span className="font-bold lg:text-xl text-gray-900">Chatbox AI</span>
+          <span className="font-bold lg:text-xl text-gray-900">
+            IntellectAI
+          </span>
         </NavLink>
       </div>
 
       <div className="hidden lg:justify-center lg:items-center md:flex items-center gap-6 lg:gap-12">
         <NavLink href="/#pricing" className="flex items-center gap-2 ">
           <Tag className="w-5 h-5 " />
-          Gói Giá
+          Gói Dịch Vụ
         </NavLink>
 
         {loggedIn ? (
